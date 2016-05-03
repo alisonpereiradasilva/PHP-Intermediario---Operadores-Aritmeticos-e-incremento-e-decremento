@@ -1,0 +1,58 @@
+Operadores Aritmeticos
+
+<?php
+//Operador Oposto
+$a = 10;
+echo "A variavel a vale " . $a;
+echo"<br>";
+echo "A negacao e a vale " . -$a;
+echo<br><br>;
+--------------------------------------------------------------------------------------------
+// Operador soma
+$a=10;
+$b=-15;
+$c=($a + $b);
+echo "A adicao de " . $a . " com " . $b . " e " . $c;
+echo<br><br>;
+--------------------------------------------------------------------------------------------
+// Operador subtracao
+$a=20;
+$b=-23;
+$c=($b - $a);
+echo " A diferenca entre " . $a . " e " . $b . " e " . $c;
+echo<br><br>;
+--------------------------------------------------------------------------------------------
+// Operador produto
+$a=500;
+$b=5.20;
+$c=($a * $b);
+echo " O produto entre " . $a . " e " . $b . " e " . $c;
+echo<br><br>;
+--------------------------------------------------------------------------------------------
+// Operador divisao
+$a=5.698;
+$b=1.25;
+$c=($a / $b);
+echo " A divisao entre " . $a . " e " . $b . " e " . $c;
+echo<br><br>;
+--------------------------------------------------------------------------------------------
+// Operador Modulo - resto da divisao
+$a=-12.45;
+$b=9.5;
+$c=($b % $a);
+echo "O modulo entre " . $a . " e " . $b . " e " . $c;
+echo<br><br>;
+--------------------------------------------------------------------------------------------
+// Operador Exponencial
+$a=12.54;
+$b=5;
+$c=($b ** $a);
+echo "O Exponencial de " . $b . " sobre " . $a . " e " . $c;
+echo<br><br>;
+---------------------------------------------------------------------------------------------
+// Operador incremento e decremento
+$a = 100
+echo "O Pre-incremento de " . $a . " e " . ++$a;echo<br>; 
+echo "O Pos-incremento de " . $a . " e " . $a++;echo<br>;
+echo "O Pre-decremento de " . $a . " e " . --$a;echo<br>;
+echo "O Pos-decremento de " . $a . " e " . $a--;echo<br>;
